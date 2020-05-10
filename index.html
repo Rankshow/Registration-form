@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Practice</title>
+</head>
+<body>
+    <form>
+        <h2>The Registration Form</h2><hr>
+        <div class="form-group">
+          <label for="User-name">User Name *</label>
+          <input type="text" id="user-name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="E-mail">E-mail *</label>
+            <input type="email" name="Email" placeholder="Insert your E-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="pword">Password *</label>
+            <input type="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="user-name">Contact number </label>
+            <input type="number" name="number" min="7" max="10" required>
+          </div>
+          <div class="form-group">
+            <label for="User-name">Birthday</label>
+            <input type="date" id="Birthday" required>
+            <div class="form-group">
+              <label for="User-name">Week</label>
+              <input type="week" id="week" required>
+                 <div class="form-group">
+                  <label for="User-name">Time</label>
+                 <input type="time" id="Time" required>
+              <div class="form-group">
+                <label for="User-name">Your Webpage</label>
+                   <input type="url" id="webpage" required>
+                   <div class="form-group">
+                    <label for="User-name">Select your country</label>
+                       <input list="country">   
+                       <datalist id="country">
+                         <option>Nigeria</option>
+                         <option>United State</option>
+                         <option>United Kingdom</option>
+                         <option>India</option>
+                         <option>Canada</option>
+                         <option>Austrialia</option>
+                       </datalist>
+              <input type="submit" value="Submit">
+            </div> 
+          </div>
+          <footer>
+            &copy;Copyright 2020 by Rankshow
+          </footer>
+    </form>  
+
+</body>
+</html>
+
+    
